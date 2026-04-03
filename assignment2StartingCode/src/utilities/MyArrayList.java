@@ -42,7 +42,7 @@ public class MyArrayList<E> implements ListADT<E> {
 
     @Override
     public boolean add(E toAdd) throws NullPointerException {
-        return add(size, toAdd); // Add to the very end
+        return add(size, toAdd); 
     }
 
     @Override
